@@ -1996,7 +1996,7 @@ body {
   align-items: center;
 }
 
-.breadcrumbs-item::after {
+.breadcrumbs-item:not(:last-child):after {
   position: absolute;
   top: 7px;
   right: 0;
