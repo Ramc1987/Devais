@@ -1871,6 +1871,11 @@ body {
   -o-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
   background: #ffc700;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
 }
 
 .social-nav-item:focus {
@@ -2948,7 +2953,6 @@ body {
   background: #f0f0f0;
   border: none;
   margin-top: 14px;
-  
 }
 
 .invalid-mail {
