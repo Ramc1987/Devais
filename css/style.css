@@ -72,6 +72,11 @@
   background: transparent;
   border: none;
   cursor: pointer;
+  transition: 0.3s linear background;
+  -webkit-transition: 0.3s linear background;
+  -moz-transition: 0.3s linear background;
+  -ms-transition: 0.3s linear background;
+  -o-transition: 0.3s linear background;
 }
 
 .button:hover::before {
@@ -1120,6 +1125,10 @@ body {
   margin: 0;
 }
 
+.category-item:hover .category-desk-title {
+  opacity: 0.6;
+}
+
 .monopad-title {
   width: -webkit-min-content;
   width: -moz-min-content;
@@ -1130,6 +1139,7 @@ body {
   width: 160px;
   height: 160px;
   background: #ffe17f;
+  transition-duration: 0.4s;
 }
 
 .virtual-real::before {
