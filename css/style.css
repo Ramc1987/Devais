@@ -1690,9 +1690,11 @@ body {
   border: 3px solid #cecece;
   padding: 15px 36px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .subscription-btn:hover {
+  height: 200%;
   background: #000000;
   color: #f0f0f0;
   border: none;
@@ -1750,6 +1752,7 @@ body {
 .logo-link {
   display: inline-block;
   margin-bottom: 30px;
+  transition-duration: 0.3s;
 }
 
 .logo-link:hover {
@@ -1846,6 +1849,11 @@ body {
 .social-nav-item {
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.3);
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
 }
 
 .social-nav-link {
@@ -1867,9 +1875,6 @@ body {
 }
 
 .social-nav-item:hover {
-  -webkit-transition: 0.5s ease-in;
-  -o-transition: 0.5s ease-in;
-  transition: 0.5s ease-in;
   background: #ffc700;
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
